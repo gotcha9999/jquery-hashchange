@@ -1,15 +1,15 @@
 /*!
- * jQuery hashchange event - v1.3 - 7/21/2010
+ * jQuery hashchange event - v1.4 - 5/29/2014
  * http://benalman.com/projects/jquery-hashchange-plugin/
  * 
  * Copyright (c) 2010 "Cowboy" Ben Alman
  * Dual licensed under the MIT and GPL licenses.
- * http://benalman.com/about/license/
+ * @license http://benalman.com/about/license/
  */
 
 // Script: jQuery hashchange event
 //
-// *Version: 1.3, Last updated: 7/21/2010*
+// *Version: 1.4, Last updated: 5/29/2014*
 // 
 // Project Home - http://benalman.com/projects/jquery-hashchange-plugin/
 // GitHub       - http://github.com/cowboy/jquery-hashchange/
@@ -36,7 +36,7 @@
 // tested with, what browsers it has been tested in, and where the unit tests
 // reside (so you can test it yourself).
 // 
-// jQuery Versions - 1.2.6, 1.3.2, 1.4.1, 1.4.2
+// jQuery Versions - 1.2.6, 1.3.2, 1.4.1, 1.4.2, 1.11.1
 // Browsers Tested - Internet Explorer 6-8, Firefox 2-4, Chrome 5-6, Safari 3.2-5,
 //                   Opera 9.6-10.60, iPhone 3.1, Android 1.6-2.2, BlackBerry 4.6-5.
 // Unit Tests      - http://benalman.com/code/projects/jquery-hashchange/unit/
@@ -58,6 +58,7 @@
 // event, but not report that it does, the fallback polling loop will be used.
 // 
 // About: Release History
+// 1.4   - (5/29/2014) Changed $.browser.msie to regular expression.
 // 
 // 1.3   - (7/21/2010) Reorganized IE6/7 Iframe code to make it more
 //         "removable" for mobile-only development. Added IE6/7 document.title
