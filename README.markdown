@@ -25,7 +25,7 @@ tested with, what browsers it has been tested in, and where the unit tests
 reside (so you can test it yourself).
 
 ### jQuery Versions ###
-1.2.6, 1.3.2, 1.4.1, 1.4.2
+1.2.6, 1.3.2, 1.4.1, 1.4.2, 1.11.1
 
 ### Browsers Tested ###
 Internet Explorer 6-8, Firefox 2-4, Chrome 5-6, Safari 3.2-5, Opera 9.6-10.60, iPhone 3.1, Android 1.6-2.2, BlackBerry 4.6-5.
@@ -61,6 +61,7 @@ event, but not report that it does, the fallback polling loop will be used.
 
 ## Release History ##
 
+1.4 - (5/29/2014) Changed $.browser.msie to regular expression.
 1.3 - (7/21/2010) Reorganized IE6/7 Iframe code to make it more "removable" for mobile-only development. Added IE6/7 document.title support. Attempted to make Iframe as hidden as possible by using techniques from http://www.paciellogroup.com/blog/?p=604. Added  support for the "shortcut" format $(window).hashchange( fn ) and $(window).hashchange() like jQuery provides for built-in events. Renamed jQuery.hashchangeDelay to jQuery.fn.hashchange.delay and lowered its default value to 50. Added jQuery.fn.hashchange.domain and jQuery.fn.hashchange.src properties plus document-domain.html file to address access denied issues when setting document.domain in IE6/7.  
 1.2 - (2/11/2010) Fixed a bug where coming back to a page using this plugin from a page on another domain would cause an error in Safari 4. Also, IE6/7 Iframe is now inserted after the body (this actually works), which prevents the page from scrolling when the event is first bound. Event can also now be bound before DOM ready, but it won't be usable before then in IE6/7.  
 1.1 - (1/21/2010) Incorporated document.documentMode test to fix IE8 bug where browser version is incorrectly reported as 8.0, despite inclusion of the X-UA-Compatible IE=EmulateIE7 meta tag.  
