@@ -1,0 +1,10 @@
+{
+	"name": "jquery-hashchange",
+	"version": "1.4",
+	"ignore": [
+		"unit",
+		"shared",
+		"examples",
+		"docs"
+	]
+}
