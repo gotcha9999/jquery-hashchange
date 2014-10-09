@@ -1,7 +1,7 @@
 # jQuery hashchange event #
 [http://benalman.com/projects/jquery-hashchange-plugin/](http://benalman.com/projects/jquery-hashchange-plugin/)
 
-Version: 1.4, Last updated: 5/29/2014 [https://github.com/sapzxc/jquery-hashchange/]($.browser support for jQuery 1.9+)
+Version: 1.4, Last updated: 5/29/2014 [$.browser support for jQuery 1.9+](https://github.com/sapzxc/jquery-hashchange/)
 
 This jQuery plugin enables very basic bookmarkable #hash history via a cross-browser window.onhashchange event.
 
@@ -25,14 +25,13 @@ tested with, what browsers it has been tested in, and where the unit tests
 reside (so you can test it yourself).
 
 ### jQuery Versions ###
-1.2.6, 1.3.2, 1.4.1, 1.4.2, 1.11.1 (probably v2+)
+1.2.6, 1.3.2, 1.4.1, 1.4.2, 1.11.1, 2.1.1
 
 ### Browsers Tested ###
 Internet Explorer 6-11, Firefox 2-32, Chrome 5-38, Safari 3.2-7.1, Opera 9.6-10.60, iPhone 3.1, Android 1.6-2.2, BlackBerry 4.6-5.
 
 ### Unit Tests ###
-[http://benalman.com/code/projects/jquery-hashchange/unit/](http://benalman.com/code/projects/jquery-hashchange/unit/)
-
+<s>[http://benalman.com/code/projects/jquery-hashchange/unit/](http://benalman.com/code/projects/jquery-hashchange/unit/)</s> - not supported by repository owner. Clone this repo and open unit/index.html in your browser.
 
 ## A more robust solution ##
 
