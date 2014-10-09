@@ -1,6 +1,6 @@
 {
 	"name": "jquery-hashchange",
-	"description": "This jQuery plugin enables very basic bookmarkable #hash history via a cross-browser HTML5 window.onhashchange event.",
+	"description": "This jQuery (v1.9+) plugin enables very basic bookmarkable #hash history via a cross-browser HTML5 window.onhashchange event.",
 	"version": "1.4",
 	"main": "jquery.ba-hashchange.js",
 	"keywords": ["hashchange", "bookmark", "history"],
