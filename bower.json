@@ -9,7 +9,7 @@
 	  "url": "git://github.com/sapzxc/jquery-hashchange.git"
 	},
 	"dependencies": {
-    "jquery": "1.11.1"
+    "jquery": "3.2.1"
   },
 	"ignore": [
 		"unit",
